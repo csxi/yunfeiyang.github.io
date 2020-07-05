@@ -22,7 +22,7 @@ function setUserName() {
         setUserName();
     }
     localStorage.setItem('name',myName);
-    myHeading.textContent='云飞扬牛逼：'+myName;
+    myHeading.textContent="欢迎"+myName+"，快到碗里来。";
 
 }
 
@@ -30,7 +30,7 @@ if(!localStorage.getItem('name')) {
     setUserName();
 } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = '云飞扬牛逼:' + storedName;
+    myHeading.textContent = "欢迎"+  storedName+'，快到碗里来。';
 }
 
 myButton.onclick=function () {
