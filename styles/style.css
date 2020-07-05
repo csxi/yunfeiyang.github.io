@@ -1,0 +1,33 @@
+
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 20px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #21B9AC;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-align: center;
+    text-shadow: 3px 3px 6px black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+
+}
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #ffa940;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
